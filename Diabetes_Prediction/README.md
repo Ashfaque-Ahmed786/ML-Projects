@@ -1,98 +1,62 @@
-🩺 Diabetes Prediction Web App
-🚀 Machine Learning | Logistic Regression | Streamlit
-📌 Project Overview
+# 🩺 Diabetes Prediction Web App
+### 🚀 Machine Learning | Logistic Regression | Streamlit
 
-This project is an end-to-end Machine Learning application that predicts whether a person is at risk of diabetes based on key medical parameters.
-The trained ML model is deployed as an interactive Streamlit web application, enabling real-time predictions through a clean UI.
+---
 
-✨ Key Features
+## 📌 Project Description
+The **Diabetes Prediction Web App** is an end-to-end Machine Learning project that predicts whether a person is at risk of diabetes based on medical attributes such as glucose level, BMI, age, blood pressure, and family history.
 
-✅ Logistic Regression ML Model
-✅ Data Preprocessing & Feature Scaling
-✅ Model Serialization using Pickle
-✅ Interactive Streamlit Web App
-✅ Diabetes Risk Prediction with Probability (%)
-✅ Clean, Modular & Deployment-Ready Code
+The project uses a **Logistic Regression model** trained on the **PIMA Indians Diabetes Dataset**, with proper data preprocessing and feature scaling. The trained model is saved using **Pickle** and deployed through an **interactive Streamlit web application**, allowing users to enter patient details and receive real-time predictions along with probability scores.
 
-📊 Dataset Information
+This project demonstrates the complete **Machine Learning workflow**, from data preprocessing and model training to deployment, making it suitable for **portfolio projects, learning purposes, and interviews**.
 
-The model is trained on the PIMA Indians Diabetes Dataset, a widely used benchmark dataset in healthcare ML.
+---
 
-🔹 Input Features
-🧾 Feature	📖 Description
-Pregnancies	Number of pregnancies
-Glucose	Plasma glucose concentration
-BloodPressure	Diastolic blood pressure (mm Hg)
-BMI	Body Mass Index
-DiabetesPedigreeFunction	Genetic likelihood of diabetes
-Age	Age of the patient
-🎯 Target Variable
+## ✨ Features
+- ✅ Logistic Regression ML Model  
+- ✅ Data Preprocessing & Feature Scaling  
+- ✅ Model Serialization using Pickle  
+- ✅ Interactive Streamlit Web App  
+- ✅ Diabetes Risk Prediction with Probability (%)  
+- ✅ Clean & Deployment-Ready Structure  
 
-Outcome
+---
 
-0 → ❌ No Diabetes
+## 📊 Dataset Information
+**Dataset:** PIMA Indians Diabetes Dataset  
 
-1 → ✅ Diabetes
+### Input Features
+- Pregnancies  
+- Glucose  
+- BloodPressure  
+- BMI  
+- DiabetesPedigreeFunction  
+- Age  
 
-🧠 Machine Learning Pipeline
+### Target Variable
+- `0` → No Diabetes  
+- `1` → Diabetes  
 
-🔹 Data Cleaning (handling invalid zero values)
-🔹 Feature Selection
-🔹 Feature Scaling using StandardScaler
-🔹 Model Training using Logistic Regression
-🔹 Model Evaluation (Accuracy, Confusion Matrix, Classification Report)
-🔹 Model Saving using Pickle
-🔹 Deployment using Streamlit
+---
 
-🛠️ Tech Stack
+## 🧠 Machine Learning Pipeline
+1. Data Cleaning  
+2. Feature Selection  
+3. Feature Scaling (StandardScaler)  
+4. Model Training (Logistic Regression)  
+5. Model Evaluation  
+6. Model Saving (Pickle)  
+7. Deployment (Streamlit)  
 
-🟢 Python
-🟢 Pandas & NumPy
-🟢 Scikit-Learn
-🟢 Streamlit
-🟢 Pickle
-🟢 VS Code
+---
 
-📈 Model Performance
+## 🛠️ Tech Stack
+- Python  
+- Pandas & NumPy  
+- Scikit-Learn  
+- Streamlit  
+- Pickle  
 
-📌 Accuracy: ~77%
-📌 Balanced Precision, Recall & F1-Score
-📌 Best performance achieved using Logistic Regression
+---
 
-🔍 Logistic Regression performed better than other tested models on this dataset.
-
-🔐 Important Notes
-
-⚠️ Pickle files must be in the same directory as app.py
-⚠️ Feature order during prediction must match training order
-⚠️ Virtual environment is recommended for dependency isolation
-
-🎯 Use Cases
-
-✔️ Educational Machine Learning Project
-✔️ Healthcare Risk Prediction Demo
-✔️ Data Science Portfolio Project
-✔️ Interview-Ready ML Deployment Example
-
-🔮 Future Improvements
-
-🚀 Add multiple ML models (SVM, KNN, Decision Tree)
-🚀 Model comparison inside the web app
-🚀 Improve UI/UX with charts and visualizations
-🚀 Deploy on Streamlit Cloud / Render
-🚀 Add input validation & warnings
-
-👨‍💻 Author
-Ishfaq Ahmed
-
-🎓 Software Engineering Student
-🎯 Aspiring Data Scientist
-
-⭐ Acknowledgements
-
-📌 Dataset: PIMA Indians Diabetes Dataset
-📌 Libraries: Scikit-Learn, Streamlit
-
-🌟 Final Note
-
-If you like this project, please ⭐ star the repository and feel free to fork, use, or improve it!
+## 📂 Project Structure
