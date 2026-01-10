@@ -53,34 +53,6 @@ Outcome
 🟢 Pickle
 🟢 VS Code
 
-📂 Project Structure
-Diabetes_Prediction_ML_Project/
-│
-├── app.py                  # Streamlit web application
-├── logreg_model.pkl        # Trained Logistic Regression model
-├── scaler.pkl              # StandardScaler object
-├── requirements.txt        # Project dependencies
-├── venv/                   # Virtual environment
-└── README.md               # Project documentation
-
-▶️ How to Run the Project
-🔹 1️⃣ Clone the Repository
-git clone https://github.com/your-username/diabetes-prediction-ml.git
-cd diabetes-prediction-ml
-
-🔹 2️⃣ Create & Activate Virtual Environment
-python -m venv venv
-venv\Scripts\activate
-
-🔹 3️⃣ Install Required Dependencies
-pip install -r requirements.txt
-
-🔹 4️⃣ Run the Streamlit App
-streamlit run app.py
-
-
-🌐 The app will automatically open in your browser.
-
 📈 Model Performance
 
 📌 Accuracy: ~77%
