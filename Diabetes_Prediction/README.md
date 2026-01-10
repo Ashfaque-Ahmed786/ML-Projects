@@ -60,3 +60,12 @@ This project demonstrates the complete **Machine Learning workflow**, from data 
 ---
 
 ## 📂 Project Structure
+Diabetes_Prediction_ML_Project/
+│
+├── app.py                 # Streamlit web application
+├── logreg_model.pkl       # Trained Logistic Regression model
+├── scaler.pkl             # StandardScaler object
+├── requirements.txt       # Project dependencies
+├── venv/                  # Virtual environment
+└── README.md              # Project documentation
+
