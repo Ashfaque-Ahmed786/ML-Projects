@@ -69,3 +69,47 @@ Diabetes_Prediction_ML_Project/
 ├── venv/                  # Virtual environment
 └── README.md              # Project documentation
 
+📈 Model Performance
+
+Accuracy: ~77%
+
+Logistic Regression showed the best overall performance
+
+Balanced precision, recall, and F1-score
+
+🎯 Use Cases
+
+Machine Learning practice project
+
+Healthcare risk prediction demo
+
+Data Science portfolio project
+
+Interview-ready ML deployment example
+
+🔮 Future Improvements
+
+Add multiple ML models (SVM, KNN, Decision Tree)
+
+Model comparison feature
+
+Enhanced UI with charts and visualizations
+
+Online deployment on Streamlit Cloud or Render
+
+👨‍💻 Author
+
+Ishfaq Ahmed
+
+Software Engineering Student
+
+Aspiring Data Scientist
+
+⭐ Acknowledgements
+
+PIMA Indians Diabetes Dataset
+
+Scikit-Learn
+
+Streamlit
+
