@@ -15,12 +15,6 @@ Predict the risk of heart disease using patient medical data. This **end-to-end 
 - **Scalable:** Easily extendable to other medical datasets or ML models.  
 
 ---
-
-## 🖥️ Live Demo
-
-![App Screenshot](assets/background.png)  
-*(Replace with an actual screenshot of your app)*  
-
 ---
 
 ## ⚙️ End-to-End Workflow
